@@ -6,10 +6,8 @@ Comm-Link is a dark-themed app for RSI's Spectrum community chat, for Android an
 
 On Android, the mobile Spectrum site in a Chrome tab often goes stale: leave it for a while and it stops getting new messages without telling you. Comm-Link fixes that. It watches Spectrum's live connection the whole time, and if the connection drops, freezes, or the app comes back from the background or a network change, it reconnects and reloads straight back into Spectrum on its own. A small LIVE indicator shows when you're connected. The Windows app does the same, so chats and forums always show current data.
 
-<p align="center"><img src="docs/images/live-pill-phone.png" width="300" alt="Comm-Link on Android with the LIVE pill in the top-right corner"></p>
-<p align="center"><em>The live-status pill sits in the top-right corner of every Spectrum page.</em></p>
-
-![The four pill states: LIVE, CONNECTING, RECONNECT, OFFLINE](docs/images/live-pill-states.png)
+<p align="center"><img src="docs/images/lobby.png" width="300" alt="Comm-Link on Android in a Spectrum chat lobby, with the LIVE pill at the top center of the status bar"></p>
+<p align="center"><em>A real chat lobby in Comm-Link. The LIVE pill sits at the top center of the status bar.</em></p>
 
 - 🟢 **LIVE**: connected and receiving live data.
 - 🟡 **CONNECTING**: opening the live connection for the first time.
@@ -17,6 +15,19 @@ On Android, the mobile Spectrum site in a Chrome tab often goes stale: leave it 
 - 🔴 **OFFLINE**: no network. Comm-Link reloads as soon as you're back online.
 
 Tap the pill to see when data last arrived.
+
+## Screenshots
+
+| Forums & Lobbies | Text size & color settings | Green message text | In-app browser |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/images/forums.png" width="200" alt="Forums and Lobbies tabs"> | <img src="docs/images/colors.png" width="200" alt="Comm-Link text size and message color settings"> | <img src="docs/images/colors-applied.png" width="200" alt="Chat lobby with green message text"> | <img src="docs/images/browser-account.png" width="200" alt="In-app browser on an RSI page"> |
+| Community home with Forums and Lobbies | Pick a text size and message color | Green text, usernames stay orange | RSI links open in a built-in browser |
+
+Usernames and personal details are blacked out.
+
+### Settings
+
+Text size and message color are under **☰ > Spectrum Settings**, in the Comm-Link panel at the top. Changes apply right away.
 
 > **Unofficial fan project, not affiliated with or endorsed by Cloud Imperium Games / Roberts Space Industries. Star Citizen and Spectrum are trademarks of CIG.**
 
