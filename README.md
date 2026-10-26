@@ -6,6 +6,18 @@ Comm-Link is a dark-themed app for RSI's Spectrum community chat, for Android an
 
 On Android, the mobile Spectrum site in a Chrome tab often goes stale: leave it for a while and it stops getting new messages without telling you. Comm-Link fixes that. It watches Spectrum's live connection the whole time, and if the connection drops, freezes, or the app comes back from the background or a network change, it reconnects and reloads straight back into Spectrum on its own. A small LIVE indicator shows when you're connected. The Windows app does the same, so chats and forums always show current data.
 
+<p align="center"><img src="docs/images/live-pill-phone.png" width="300" alt="Comm-Link on Android with the LIVE pill in the top-right corner"></p>
+<p align="center"><em>The live-status pill sits in the top-right corner of every Spectrum page.</em></p>
+
+![The four pill states: LIVE, CONNECTING, RECONNECT, OFFLINE](docs/images/live-pill-states.png)
+
+- 🟢 **LIVE**: connected and receiving live data.
+- 🟡 **CONNECTING**: opening the live connection for the first time.
+- 🟡 **RECONNECT**: the connection dropped or went quiet, so Comm-Link is reconnecting and reloading on its own.
+- 🔴 **OFFLINE**: no network. Comm-Link reloads as soon as you're back online.
+
+Tap the pill to see when data last arrived.
+
 > **Unofficial fan project, not affiliated with or endorsed by Cloud Imperium Games / Roberts Space Industries. Star Citizen and Spectrum are trademarks of CIG.**
 
 ## Download
