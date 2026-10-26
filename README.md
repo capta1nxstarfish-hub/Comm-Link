@@ -1,6 +1,6 @@
 # Comm-Link
 
-Comm-Link is a dark, scmdb-styled app for RSI's Spectrum community chat, for Android and Windows. It is simply RSI's own Spectrum website (robertsspaceindustries.com/spectrum) shown in an app window with a cleaner theme. Comm-Link collects no data: there are no analytics or trackers, and your login goes straight to RSI. It never passes through Comm-Link or any other server.
+Comm-Link is a dark-themed app for RSI's Spectrum community chat, for Android and Windows. It is simply RSI's own Spectrum website (robertsspaceindustries.com/spectrum) shown in an app window with a cleaner theme. Comm-Link collects no data: there are no analytics or trackers, and your login goes straight to RSI. It never passes through Comm-Link or any other server.
 
 > **Unofficial fan project, not affiliated with or endorsed by Cloud Imperium Games / Roberts Space Industries. Star Citizen and Spectrum are trademarks of CIG.**
 
