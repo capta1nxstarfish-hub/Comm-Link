@@ -2,6 +2,10 @@
 
 Comm-Link is a dark-themed app for RSI's Spectrum community chat, for Android and Windows. It is simply RSI's own Spectrum website (robertsspaceindustries.com/spectrum) shown in an app window with a cleaner theme. Comm-Link collects no data: there are no analytics or trackers, and your login goes straight to RSI. It never passes through Comm-Link or any other server.
 
+## Always live, never stale
+
+On Android, the mobile Spectrum site in a Chrome tab often goes stale: leave it for a while and it stops getting new messages without telling you. Comm-Link fixes that. It watches Spectrum's live connection the whole time, and if the connection drops, freezes, or the app comes back from the background or a network change, it reconnects and reloads straight back into Spectrum on its own. A small LIVE indicator shows when you're connected. The Windows app does the same, so chats and forums always show current data.
+
 > **Unofficial fan project, not affiliated with or endorsed by Cloud Imperium Games / Roberts Space Industries. Star Citizen and Spectrum are trademarks of CIG.**
 
 ## Download
